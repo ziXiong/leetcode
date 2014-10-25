@@ -5,14 +5,15 @@ class TreeNode:
         self.left = None
         self.right = None
 
+
 class Solution:
     # @param p, a tree node
     # @param q, a tree node
     # @return a boolean
     def isSameTree(self, p, q):
-        if p == None and q == None:
+        if p is None and q is None:
             return True
-        elif p == None or q == None:
+        elif p is None or q is None:
             return False
         elif p.val != q.val:
             return False
@@ -21,31 +22,30 @@ class Solution:
         else:
             return False
 
+
 def main():
     treelist1 = []
     treeroot1 = TreeNode(0)
-    treelist1.append(treeroot)
-    for i in range(1,10):
+    treelist1.append(treeroot1)
+    for i in range(1, 10):
         tree = TreeNode(i)
         treelist1.append(tree)
         if i % 2 == 0:
-            treelist1[i/2 - 1].right = tree
+            treelist1[int(i/2)-1].right = tree
         else:
-            treelist1[i/2].left = tree
-            treelist1[i/2].right = tree
+            treelist1[int(i/2)].left = tree
     treelist2 = []
     treeroot2 = TreeNode(0)
-    treelist2.append(treeroot)
-    for i in range(1,10):
+    treelist2.append(treeroot2)
+    for i in range(1, 10):
         tree = TreeNode(i)
         treelist2.append(tree)
         if i % 2 == 0:
-            treelist2[i/2 - 1].right = tree
+            treelist2[int(i/2)-1].right = tree
         else:
-            treelist2[i/2].left = tree
-            treelist2[i/2].right = tree
-    print(Solution.isSameTree(treeroot1, treeroot2))
-    print("here")
+            treelist2[int(i/2)].left = tree
+    solution = Solution()
+    print(solution.isSameTree(treeroot1, treeroot2))
 
-if '__name__' == '__main__':
+if __name__ == '__main__':
     main()
