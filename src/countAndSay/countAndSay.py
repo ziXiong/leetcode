@@ -14,20 +14,30 @@ Note: The sequence of integers will be represented as a string.
 class Solution:
     # @return a string
     def countAndSay(self, n):
-        input_ = str(n)
-        output = ''
+        input_str = str(n)
+        output_str = ''
         for _ in range(n):
-            last = input_[0]
-            count = 0
-            for i in range(1, len(input_)):
-                if input_[i] == last:
-                    count += 1
-                else:
-                    output = count + last
-                    last = input_[i+1]
-                    count = 0
-        return output
+            output_str = self._everyCountAndSay(input_str)
+            input_str = output_str
+        return output_str
 
+    def _everyCountAndSay(self, n):
+        input_str = str(n)
+        output_str = ''
+        last_char = ''
+        count = 0
+        for i in range(len(input_str)):
+            current_char = input_str[i]
+            if current_char == last_char or last_char == '':
+                count += 1
+            else:
+                output_str += str(count) + last_char
+                count = 1
+            last_char = current_char
+        output_str += str(count) + last_char
+        return output_str
+
+     
 if __name__ == '__main__':
     solution = Solution()
-    print(solution(8)
+    print(solution.countAndSay(4))
