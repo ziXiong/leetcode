@@ -1,10 +1,9 @@
-__author__ = 'harley'
 # Write a program to find the node at which the intersection of two singly linked lists begins.
 #
 #
 # For example, the following two linked lists:
 #
-#    A:      a1 → a2
+# A:      a1 → a2
 #                    ↘
 #                     c1 → c2 → c3
 #                    ↗
@@ -31,29 +30,30 @@ class Solution:
     def getIntersectionNode(self, headA, headB):
         pointA = headA
         pointB = headB
-        timecountA,timecountB = 0,0
+        countA, countB = False, False
 
         if pointA is None or pointB is None:
             return None
-       
 
-        while (pointA is not None) and (pointB is not None):
+        while True:
             if pointA is pointB:
                 return pointA
             pointA = pointA.next
             pointB = pointB.next
-          
             if pointA is None:
-                timecountA += 1
-                if timecountA >= 2:
+                if countA is True:
                     return None
                 pointA = headB
+                countA = True
             if pointB is None:
-                timecountB +=1
-                if timecountB >= 2:
+                if countB is True:
                     return None
                 pointB = headA
+                countB = True
 
 
 # Q:
 # What is the differences between '==' and 'is' in python.
+# A:
+# 'a == b' is equal to 'a.__eq__(b)', return value is depend on the __eq__ function.
+# 'a is b' is equal to 'id(a) == id(b)', return value is depend ond
