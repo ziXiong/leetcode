@@ -2,6 +2,7 @@ LeetCode
 ========
 
 LeetCode python solutions
+
 | Title | Solution | Difficulty | Key Word |
 | ----- | -------- | ---------- | -------- |
 | [Count and Say](https://oj.leetcode.com/problems/count-and-say/) | [Click Here](./src/countAndSay/countAndSay.py) | Easy | groupby, iterator |
