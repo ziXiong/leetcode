@@ -10,8 +10,8 @@ LeetCode python solutions
 | [Pascal's Triangle](https://oj.leetcode.com/problems/pascals-triangle/) | [Click Here](./src/pascalsTriangle/pascalsTriangle.py) | Easy | None |
 | [Pascal's Triangle II](https://oj.leetcode.com/problems/pascals-triangle-ii/) | [Click Here](./src/pascalsTriangleII/pascalsTriangleII.py) | Easy | None |
 | [Reverse Integer](https://oj.leetcode.com/problems/reverse-integer/) | [Click Here](./src/reverseInteger/reverseInteger.py) | Easy | math, string |
-| [Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/) | [Click Here](./src/reverseWordsInString) | Easy | string |
+| [Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/) | [Click Here](./src/reverseWordsInString/reverseWordsInString.py) | Easy | string |
 | [Same Tree](https://oj.leetcode.com/problems/same-tree/) | [Click Here](./src/sameTree/sameTree.py) | Easy | recursion |
 | [Single Number](https://oj.leetcode.com/problems/single-number/) | [Click Here](./src/singleNumber/singleNumber.py) | Medium | bit manipulation |
 | [Two Sum](https://oj.leetcode.com/problems/two-sum/) | [Click Here](./src/twoSum/twoSum.py) | Medium | hash table |
-| [Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/) | [Click Here](./src/validPalindrome/validPalindrome) | Easy | string, pointer |
+| [Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/) | [Click Here](./src/validPalindrome/validPalindrome.py) | Easy | string, pointer |
