@@ -12,6 +12,7 @@
 # Knowledge Point:
 # * regular recursion way to solve tree-related problems
 # * better way to write judgement statement
+
 class Solution:
     # @param p, a tree node
     # @param q, a tree node
