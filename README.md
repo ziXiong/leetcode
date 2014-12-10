@@ -16,3 +16,4 @@ LeetCode python solutions
 | [Two Sum](https://oj.leetcode.com/problems/two-sum/) | [Click Here](./src/twoSum/twoSum.py) | Medium | hash table |
 | [Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/) | [Click Here](./src/validPalindrome/validPalindrome.py) | Easy | string, pointer |
 | [Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/) | [Click Here](./src/mergeSortedArray/mergeSortedArray.py) | Easy | pointer |
+| [Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/) | [Click Here](./src/longestCommonPrefix/longestCommonPrefix.py) | Easy | string |
