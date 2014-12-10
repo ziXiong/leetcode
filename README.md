@@ -17,3 +17,4 @@ LeetCode python solutions
 | [Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/) | [Click Here](./src/validPalindrome/validPalindrome.py) | Easy | string, pointer |
 | [Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/) | [Click Here](./src/mergeSortedArray/mergeSortedArray.py) | Easy | pointer |
 | [Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/) | [Click Here](./src/longestCommonPrefix/longestCommonPrefix.py) | Easy | string |
+| [String to Integer](https://oj.leetcode.com/problems/string-to-integer-atoi/) | [Click Here](./src/stringToInteger/stringToInteger.py) | Easy | string |
