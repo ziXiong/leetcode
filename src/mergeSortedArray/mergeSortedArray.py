@@ -4,6 +4,8 @@
 # The number of elements initialized in A and B are m and n respectively.
 
 
+# Remember:
+# Do not change container while looping!
 class Solution:
     # @param A  a list of integers
     # @param m  an integer, length of A
@@ -11,12 +13,10 @@ class Solution:
     # @param n  an integer, length of B
     # @return nothing
     def merge(self, A, m, B, n):
-        pointerA, pointerB = 0, 0
-        while pointerB < n-1 and pointerA < m-1:
-            while pointerA < m-1 and A[pointerA] <= B[pointerB]:
-                pointerA += 1
-            A.insert(pointerA, B[pointerB])
-            pointerB += 1
-        if pointerB < n-1:
-            A = A + B[pointerB:]
+        a, b = 0, 0
+        while b < n:
+            while a < m+b and A[a] <= B[b]:
+                a += 1
+            A.insert(a, B[b])
+            b += 1
 

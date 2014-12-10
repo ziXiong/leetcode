@@ -15,3 +15,4 @@ LeetCode python solutions
 | [Single Number](https://oj.leetcode.com/problems/single-number/) | [Click Here](./src/singleNumber/singleNumber.py) | Medium | bit manipulation |
 | [Two Sum](https://oj.leetcode.com/problems/two-sum/) | [Click Here](./src/twoSum/twoSum.py) | Medium | hash table |
 | [Valid Palindrome](https://oj.leetcode.com/problems/valid-palindrome/) | [Click Here](./src/validPalindrome/validPalindrome.py) | Easy | string, pointer |
+| [Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/) | [Click Here](./src/mergeSortedArray/mergeSortedArray.py) | Easy | pointer |
