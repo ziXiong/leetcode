@@ -18,3 +18,4 @@ LeetCode python solutions
 | [Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/) | [Click Here](./src/mergeSortedArray/mergeSortedArray.py) | Easy | pointer |
 | [Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/) | [Click Here](./src/longestCommonPrefix/longestCommonPrefix.py) | Easy | string |
 | [String to Integer](https://oj.leetcode.com/problems/string-to-integer-atoi/) | [Click Here](./src/stringToInteger/stringToInteger.py) | Easy | string |
+| [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) | [Click Here](./src/addTwoNumbers/addTwoNumbers.py) | Medium | algorithm |
