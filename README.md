@@ -19,3 +19,5 @@ LeetCode python solutions
 | [Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/) | [Click Here](./src/longestCommonPrefix/longestCommonPrefix.py) | Easy | string |
 | [String to Integer](https://oj.leetcode.com/problems/string-to-integer-atoi/) | [Click Here](./src/stringToInteger/stringToInteger.py) | Easy | string |
 | [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) | [Click Here](./src/addTwoNumbers/addTwoNumbers.py) | Medium | algorithm |
+| [3Sum](https://oj.leetcode.com/problems/3sum/) | [Click Here](./src/3sum/3sum.py) | Medium | algorithm |
+| [Rotate Array](https://oj.leetcode.com/problems/rotate-array/) | [Click Here](./src/rotateArray/rotateArray.py) | Easy | copy list |
