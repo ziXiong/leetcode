@@ -3,5 +3,5 @@
 **/*.py~
 
 #ignore PyCharm setting files
-.idea
+.idea/
 

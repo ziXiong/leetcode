@@ -21,3 +21,4 @@ LeetCode python solutions
 | [Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/) | [Click Here](./src/addTwoNumbers/addTwoNumbers.py) | Medium | algorithm |
 | [3Sum](https://oj.leetcode.com/problems/3sum/) | [Click Here](./src/3sum/3sum.py) | Medium | algorithm |
 | [Rotate Array](https://oj.leetcode.com/problems/rotate-array/) | [Click Here](./src/rotateArray/rotateArray.py) | Easy | copy list |
+| [first Bad Version](https://leetcode.com/problems/first-bad-version/) | [Click Here](./src/firstBadVersion/firstBadVersion.py) | Easy | 二分法 |
