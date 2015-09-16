@@ -15,10 +15,8 @@ class Solution(object):
         middle = (start + end) / 2
         if start == end:
             return start
-        if start == middle:
-            return start if isBadVersion(start) else end
         elif isBadVersion(middle):
             return self.findBadVersion(start, middle)
         else:
-            return self.findBadVersion(middle, end)
+            return self.findBadVersion(middle+1, end)
 
