@@ -9,14 +9,13 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        return self.findBadVersion(1, n)
+        beg = 1
+        while not beg == n:
+            middle = (beg + n) / 2
+            if isBadVersion(middle):
+                n = middle
+            else:
+                beg = middle + 1
+        return beg
 
-    def findBadVersion(self, start, end):
-        middle = (start + end) / 2
-        if start == end:
-            return start
-        elif isBadVersion(middle):
-            return self.findBadVersion(start, middle)
-        else:
-            return self.findBadVersion(middle+1, end)
 
