@@ -1,4 +1,4 @@
-package com.leetcode.oc;
+package com.zixiong.leetcode;
 
 /**
  * Created by zixiong on 2018/06/07.

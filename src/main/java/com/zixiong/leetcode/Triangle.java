@@ -1,4 +1,4 @@
-package com.leetcode.oc;
+package com.zixiong.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
